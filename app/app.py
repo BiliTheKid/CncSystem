@@ -56,6 +56,9 @@ def GetMedicalCentersNumOfPatients(medicalcenter_id , department_id , severity):
 
 
 
+
+
+
 # start the server with the 'run()' method
 if __name__ == '__main__':
     app.run(debug=True)
