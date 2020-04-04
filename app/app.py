@@ -42,19 +42,19 @@ def logout():
 
 # --------------------------
 
-@app.route('/api/v1/MedicalCentersNumOfPatients' , medthod = 'GET')
-def GetMedicalCentersNumOfPatients(medicalcenter_id , department_id , severity):
-    """
-    Get the number of patients by medical center
-    :param medicalcenter_id: str
-    :param department_id: str
-    :param severity: str
-    :return:   medicalcenterid , departmentid , severity,availablebeds , ,occupiedbeds ,
-    vacantbeds , insertdate ,updatedate ,iser ,breadingmachines.
-
-    """
-
-
+# @app.route('/api/v1/MedicalCentersNumOfPatients' , medthod = 'GET')
+# def GetMedicalCentersNumOfPatients(medicalcenter_id , department_id , severity):
+#     """
+#     Get the number of patients by medical center
+#     :param medicalcenter_id: str
+#     :param department_id: str
+#     :param severity: str
+#     :return:   medicalcenterid , departmentid , severity,availablebeds , ,occupiedbeds ,
+#     vacantbeds , insertdate ,updatedate ,iser ,breadingmachines.
+#
+#     """
+#
+#     pass
 
 
 
